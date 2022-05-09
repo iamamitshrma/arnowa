@@ -1,0 +1,20 @@
+.container {
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: grid;
+    place-items: center;
+    color: white;
+}
+.textContainer {
+    width: 50%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.555);
+    padding: 10px 10px;
+}
+
+textarea {
+    width: 100%;
+    outline: none;
+    
+}

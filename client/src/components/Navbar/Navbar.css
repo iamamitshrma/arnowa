@@ -1,0 +1,21 @@
+.navbarContainer {
+    padding: 0 20px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(0, 84, 179);
+    color: white;
+}
+
+.navbarContainer>button {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aqua;
+    cursor: pointer;
+}
+.navbarContainer>button:hover {
+    color: rgb(0, 84, 179);
+}

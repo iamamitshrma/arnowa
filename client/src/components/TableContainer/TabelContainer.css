@@ -1,0 +1,27 @@
+.container {
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: grid;
+    place-items: center;
+    color: white;
+}
+.tableContainer {
+    width: 50%;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    color: black;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
