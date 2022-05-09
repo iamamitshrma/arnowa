@@ -47,7 +47,7 @@ const renderer = ({ minutes, seconds, completed }) => {
       ) : (
         <section className='navbarContainer'>
             {<h1>{user?.result.name}</h1>}
-            {<Countdown date={Number(Date.parse(time)) + 600000} renderer={renderer}/>}
+            {<Countdown date={Number(Number(Date.parse(time)) + 600000)} renderer={renderer}/>}
             {<button onClick={logoutHandler}>Logout</button>}
         </section>
       )
